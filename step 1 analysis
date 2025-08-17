@@ -1,0 +1,19 @@
+Problem: a local animal shelter is looking for a pet feeder due to reasons like if no one is present in the shelter to serve food to the animals, calculation of the portion etc. The product should be implemented by using low-cost components and the product should dispense food for pet at the pre-scheduled time, monitor it the food was eaten or not and if eaten how much quantity was consumed and to alert staff for any issue.
+LIMITATIONS:-
+1.	One type of food can be dispensed
+2.	Limited memory
+3.	Feeding time is scheduled by the customer
+4.	Power availability
+
+INPUTS:-
+1.	Real time clock
+2.	Food level sensor
+3.	Sensor for weight (how much food is eaten or not)
+
+OUTPUTS:-
+1.	Motor to dispense food
+2.	alert (no food, food not consumed)
+
+WRITTEN SKETCH:-
+
+POWER     CONTROLLER    MOTOR    STORAGE BOX    CONTAINER (WEIGHT SENSOR).   ALERT
