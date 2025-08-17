@@ -1,0 +1,14 @@
+DATA:-
+
+INPUT	TYPE	SAMPLE	LIMITATIONS
+FEEDING TIME	(RTC)	07:25 , 19:25	 3 feeding per day
+FOOD LEVEL	Check if Storage box is empty	Yes (food available)
+No (empty)	Alert should be sent if container is empty
+CONTAINER WEIGHT SENSOR	Measure the weight of the food	0g, 150g, 300g	+/- 2.5g (used to check if food is consumed or not)
+
+
+OUTPUT	TYPE	SAMPLE	LIMITATIONS
+MOTOR	DISPENSE FOOD BY ROTATING	0 degree (closed)
+150 degree (open)	Dispense a selected portion of food
+ALERT	message	Send food not eaten	Send when an issue occurs. (in 10 min)
+
