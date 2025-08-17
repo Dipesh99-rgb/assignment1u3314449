@@ -1,0 +1,13 @@
+Start.
+Pet feeder turns on:
+Check time.
+Is it feeding time
+If yes
+Check storage box have food.
+If yes:
+Dispense food
+Wait for 1o min
+Check if bowl weight reduced
+If not send an alert: “food not eaten”
+If no:
+Send alert: “storage box is empty”
