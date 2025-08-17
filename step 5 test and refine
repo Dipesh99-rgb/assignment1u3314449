@@ -1,0 +1,16 @@
+1.	Pet consumes food as expected :
+(Output) Food distributed , bowl weight increases, no alert
+Result: the system works correctly. Sensor detects change in weight and alert is not sent.
+2.	Pet doesn’t eat:
+(output) Weight doesn’t change, alert sent 
+Result: food dispensed and sensor detects no change in weight so the alert is sent. Hence, the system works correctly.
+3.	Food doesn’t dispensed:
+(output) No food dispensed, no food, alert sent
+Result: sensor detects food container is empty and the alert is sent. System works 
+
+IMPROVEMENTS:
+
+1.	Self cleaning 
+2.	Power backup (can be used in power cuts)
+3.	Camera (customer can see their pets)
+
